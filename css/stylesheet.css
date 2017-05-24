@@ -1,0 +1,78 @@
+header {
+  float: left;
+  line-height: 24px;
+  vertical-align: middle;
+  margin-top: 18px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+.notif_pic {
+  height: 15px;
+  width: auto;
+  margin-bottom: -3px;
+}
+
+.wrapper, .links {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #f2f2f2;
+  clear: both;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.left_foot_links {
+  float:left;
+}
+
+.right_foot_links, header {
+  float: right;
+}
+
+.main {
+  margin: 200px auto;
+  width: 300px;
+}
+
+.left_foot_links, .right_foot_links {
+  margin: 9px -9px;
+}
+
+.left_foot_links li a, .right_foot_links li a{
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: #666;
+  padding: 0 13px 0 13px;
+}
+
+.norm_link {
+  text-decoration: none;
+}
+
+header .norm_link {
+  color: #000000;
+  opacity: .75;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding: 6px;
+}
+
+.norm_link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+form input, form .buttons{
+  margin: auto;
+}
